@@ -1,0 +1,49 @@
+{
+  "further_key_words": "UEFA Champions League, Football, European Cup, Puskas Arena, Budapest",
+  "category": {
+    "categorie_name": "Sports"
+  },
+  "subcatetgory": {
+    "subcatetgory_name": "Football"
+  },
+  "topic": {
+    "name": "UEFA Champions League",
+    "topic_tags": {
+      "tag_names": "Football, Soccer, European Cup"
+    }
+  },
+  "general_facts": {
+    "general_definition": "The UEFA Champions League is Europe's premier club football competition, featuring the top clubs from various European leagues.",
+    "general_points": {
+      "New League Phase Format": "The 2025-26 season introduces a new league phase format with 36 teams in a single league table, increasing the variety of matchups.",
+      "English Teams Participation": "Six English clubs are part of this historic season due to England's high UEFA coefficient and Tottenham Hotspur's Europa League triumph.",
+      "Final Venue": "The final of the 2026 UEFA Champions League is set to take place on May 30 at the Puskás Aréna in Budapest, marking the venue's first Champions League final."
+    },
+    "general_fun_fact": "The tournament was rebranded as the UEFA Champions League 34 seasons ago, highlighting its evolution and significance in European football.",
+    "key_facts_text": "The UEFA Champions League replaced the European Cup, emphasizing a broader representation of clubs. The defending champion is Paris Saint-Germain, winning their first title. The Puskás Aréna hosted the 2026 final and previous key matches like the 2020 UEFA Super Cup.",
+    "key_facts_fun_fact": "Winning the Champions League grants qualification to esteemed future tournaments such as the FIFA Intercontinental Cup and FIFA Club World Cup.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/UEFA_Champions_League_logo_2.svg"
+  },
+  "news": {
+    "news_text": [
+      "• The 2025-26 UEFA Champions League adopts a new league phase format with 36 teams in a single league table, enhancing the competition's dynamics.",
+      "• England's strong UEFA coefficient allows six teams to participate, including Tottenham Hotspur due to their Europa League victory.",
+      "• The final is scheduled at the Puskás Aréna in Budapest, adding historical significance to the venue's debut as the final host."
+    ],
+    "news_fun_facts": "The revised format aims to create more exciting matchups by enabling all teams to face eight different opponents.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/UEFA_Champions_League_logo_2.svg"
+  },
+  "interesting_trivia": {
+    "trivia_text": "The UEFA Champions League transformed from the European Cup decades ago, showcasing its evolution in European football. Paris Saint-Germain holds the title from the previous season. The Puskás Aréna hosted various prominent football events, including the 2026 final.",
+    "trivia_fun_fact": "Champions League winners earn opportunities to compete in prestigious tournaments like the FIFA Intercontinental Cup and FIFA Club World Cup.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Pusk%C3%A1s_Ar%C3%A9na_in_Budapest_09-2019_11.jpg"
+  },
+  "opinions": {
+    "opinions_text": "Football fans welcome the new league phase format for increased competition and high-profile matches. Some traditionalists express concerns about losing the classic group stage. The inclusion of six English teams sparks debates on enhancing the tournament's quality or limiting diversity.",
+    "opinions_fun_fact": "Despite differing views, the revamped format is designed to expand the global audience and commercial prospects for UEFA."
+  },
+  "questions": {
+    "questions_text": "What are your thoughts on the new UEFA Champions League format? Do you prefer the traditional group stage or the league phase? How will the increased English team participation impact the competition?",
+    "questions_fun_fact": "Every UEFA Champions League season brings unique narratives and surprises, shaping the football landscape for years to come."
+  }
+}

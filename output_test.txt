@@ -1,0 +1,107 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.4, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/kruthikap/Downloads/Test - Smalltalk/SmallTalk
+plugins: xdist-3.7.0, cov-6.0.0, deepeval-3.0.5, repeat-0.9.4, anyio-4.9.0, rerunfailures-12.0, hypothesis-6.127.3, asyncio-1.0.0
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 11 items
+
+test_recommendation.py 
+=== TEST CASE: validate_recommendation_output_valid ===
+• What is being tested: Validates a correct JSON structure for recommendations.
+• Input provided: {'introduction': 'Intro', 'key_tips_and_takeaways': {'Section': ['Tip']}, 'fun_facts': ['Fact'], 'conclusion': 'Conclusion'}
+• Expected output: (True, [])
+• Actual output:   (True, [])
+• Status: PASSED
+
+.
+=== TEST CASE: validate_recommendation_output_missing_field ===
+• What is being tested: Detects missing required fields in the recommendation JSON (missing 'introduction').
+• Input provided: {'key_tips_and_takeaways': {}, 'fun_facts': [], 'conclusion': 'Conclusion'}
+• Expected output: False, 'Missing required field: 'introduction'.' in errors
+• Actual output:   (False, ["Missing required field: 'introduction'."])
+• Status: PASSED
+
+.
+=== TEST CASE: validate_recommendation_output_incorrect_type ===
+• What is being tested: Detects when 'key_tips_and_takeaways' is the wrong data type (should be dict).
+• Input provided: {'introduction': 'Intro', 'key_tips_and_takeaways': 'not a dict', 'fun_facts': [], 'conclusion': 'Conclusion'}
+• Expected output: False, 'must be an object' in errors
+• Actual output:   (False, ["Field 'key_tips_and_takeaways' must be an object, but found str."])
+• Status: PASSED
+
+.
+=== TEST CASE: validate_recommendation_output_incorrect_nested_type ===
+• What is being tested: Detects nested type errors: tips list should contain only strings, not numbers.
+• Input provided: {'introduction': 'Intro', 'key_tips_and_takeaways': {'Category': ['Tip', 123]}, 'fun_facts': [], 'conclusion': 'Conclusion'}
+• Expected output: False, 'must be a string, but found int' in errors
+• Actual output:   (False, ["Element at index 1 in list 'key_tips_and_takeaways.Category' must be a string, but found int."])
+• Status: PASSED
+
+.
+=== TEST CASE: validate_recommendation_output_not_a_dict ===
+• What is being tested: Properly fails when the input is not a dictionary (e.g. is a list).
+• Input provided: []
+• Expected output: (False, ['Top-level JSON must be an object.'])
+• Actual output:   (False, ['Top-level JSON must be an object.'])
+• Status: PASSED
+
+.
+=== TEST CASE: extract_text_from_recommendations_json_success ===
+• What is being tested: Extracts and concatenates all available text sections from a valid recommendation.
+• Input provided: {'introduction': 'Intro.', 'key_tips_and_takeaways': {'Section 1': ['Tip 1.']}, 'fun_facts': ['Fact 1.'], 'conclusion': 'Conclusion.'}
+• Expected output: Intro.
+Tip 1.
+Fact 1.
+Conclusion.
+• Actual output:   Intro.
+Tip 1.
+Fact 1.
+Conclusion.
+• Status: PASSED
+
+.
+=== TEST CASE: extract_text_from_recommendations_json_with_missing_keys ===
+• What is being tested: Works when optional keys are missing, extracting only what is present ('introduction' and 'conclusion').
+• Input provided: {'introduction': 'Intro.', 'conclusion': 'Conclusion.'}
+• Expected output: Intro.
+Conclusion.
+• Actual output:   Intro.
+Conclusion.
+• Status: PASSED
+
+.
+=== TEST CASE: extract_text_from_recommendations_json_empty_input ===
+• What is being tested: Handles empty input gracefully (returns empty string).
+• Input provided: {}
+• Expected output: 
+• Actual output:   
+• Status: PASSED
+
+.
+=== TEST CASE: generate_recommendation_success ===
+• What is being tested: Checks recommendation with 'artificial intelligence'; looks up category and sets image URL.
+• Input provided: artificial intelligence
+• Expected output: ('Technology', 'http://example.com/mock_image.jpg')
+• Actual output:   ('Technology', 'http://example.com/mock_image.jpg')
+• Status: PASSED
+
+.
+=== TEST CASE: generate_recommendation_category_fallback ===
+• What is being tested: Checks fallback logic for unknown subcategory (should set category to 'General').
+• Input provided: artificial intelligence
+• Expected output: General
+• Actual output:   General
+• Status: PASSED
+
+.
+=== TEST CASE: generate_recommendation_home_office_scenario ===
+• What is being tested: Checks home office scenario, ensures fallback to 'General' and special image URL is set.
+• Input provided: home office
+• Expected output: ('General', 'http://example.com/home-office.jpg')
+• Actual output:   ('General', 'http://example.com/home-office.jpg')
+• Status: PASSED
+
+.Running teardown with pytest sessionfinish...
+
+
+============================== 11 passed in 1.51s ==============================

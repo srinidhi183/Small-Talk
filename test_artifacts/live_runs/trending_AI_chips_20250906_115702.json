@@ -1,0 +1,22 @@
+{
+  "topic": "AI Chips",
+  "category": "Economy & Finance",
+  "subcategory": "Industries & Markets",
+  "description": "AI chips are custom-designed semiconductors optimized for artificial intelligence workloads, integral to powering AI models and accelerating computing performance in data centers, smart devices, and emerging technologies.",
+  "why_is_it_trending": [
+    "OpenAI is starting mass production of its own AI chips in collaboration with Broadcom from 2026, aiming to address GPU shortages, reduce reliance on NVIDIA, and meet increasing computational demands caused by GPT-5 and growing AI user base.",
+    "Broadcom posted a 63% year-over-year revenue increase in Q3 2025 from its AI semiconductor division, buoyed by a major $10 billion order from OpenAI, signaling a shift toward domain-specific chip customization over general GPUs.",
+    "NVIDIA plans to resume shipments of its modified H20 AI chips to China amid rising demand despite ongoing US export restrictions, highlighting geopolitical tensions influencing the AI chip market and technology access."
+  ],
+  "key_points": [
+    "OpenAI designed its custom AI chip with Broadcom, which is fulfilling a $10 billion order, but OpenAI will use the chips internally rather than selling them commercially.",
+    "While NVIDIA still dominates the AI chip ecosystem with broad developer support and recorded $30.8 billion in AI-data-center revenue in Q3 2025, Broadcom focuses on tailoring chips like the Tomahawk Ultra for specific AI workloads, gaining ground with hyperscalers seeking flexible infrastructure.",
+    "The US imposed export licensing on NVIDIA's H20 chip restricting sales to China, causing financial impacts. Meanwhile, major players like Intel implement layoffs to refocus on innovation amid an intensely competitive semiconductor landscape."
+  ],
+  "overlook_what_might_happen_next": [
+    "OpenAI may continue increasing investment in its chip production capacity to double its compute fleet over the next months, potentially influencing AI industry hardware trends.",
+    "If Broadcom sustains its AI semiconductor growth trajectory and continues delivering domain-specific chips, it may significantly erode NVIDIA's current dominance in the AI chip market.",
+    "US-China tensions and export restrictions will likely continue shaping which companies can access advanced AI chips, prompting further innovation in domestic chip design and manufacturing across multiple countries."
+  ],
+  "picture_url": "http://www.bing.com/th?id=OVFT.c6oJPwPEpgT7w6RAm-tV5y&pid=News"
+}

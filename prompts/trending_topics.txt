@@ -1,0 +1,7 @@
+You will be provided with the trending searches from different countries. 
+Return 5 distinct topics that will be the most interesting for the  user all over the world to read about. 
+The output must be as the json of the following form:
+{{'keywords': '<list of the length  5 with the topics>' }}
+ 
+Do not return name other output.
+Here are the trending searches: {searches}

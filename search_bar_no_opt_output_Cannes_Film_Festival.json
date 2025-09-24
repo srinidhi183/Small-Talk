@@ -1,0 +1,57 @@
+{
+  "further_key_words": "Cannes Film Festival, Movies, Cinema, Film Industry, Immersive Works",
+  "category": {
+    "categorie_name": "Movies & Cinema"
+  },
+  "subcatetgory": {
+    "subcatetgory_name": "Movies & Film Festivals"
+  },
+  "topic": {
+    "name": "Cannes Film Festival",
+    "topic_tags": {
+      "tag_names": "Film Festival, Cannes, Movies, Cinema, Immersive Works"
+    }
+  },
+  "general_facts": {
+    "general_definition": "The Cannes Film Festival is an acclaimed event that celebrates cinema and showcases new and established talents in the film industry.",
+    "general_points": {
+      "History and Significance": "Founded in 1946, Cannes is one of the oldest and most prestigious film festivals, hosting a wide range of international films that push artistic boundaries and explore diverse themes.",
+      "Competitions and Awards": "The festival includes various competitive sections like the Palme d'Or for the best film, Un Certain Regard for innovative works, and Caméra d'Or for debut features, recognizing excellence in filmmaking.",
+      "Global Impact": "Cannes serves as a platform for filmmakers to address pressing global issues, with documentaries and immersive works shedding light on social, political, and environmental concerns."
+    },
+    "general_fun_fact": "The Cannes Film Festival is famed for its glamorous red carpet events that attract celebrities, filmmakers, and cinephiles from around the world.",
+    "key_facts_text": [
+      "The 78th edition featured 20 films in the Un Certain Regard selection, emphasizing artistic innovation and diversity.",
+      "Notable directors like Luc Dardenne showcased socially conscious films, contributing to Cannes' legacy of promoting meaningful cinema.",
+      "The festival's commitment to immersive and documentary works reflects a shift towards engaging with contemporary global issues through film."
+    ],
+    "key_facts_fun_fact": "Cannes has a strict dress code for its red carpet events, with attendees expected to adhere to formal and elegant attire standards.",
+    "picture_url": "https://www.festival-cannes.com/assets/medias/78th-festival-cannes-2025.jpg"
+  },
+  "news": {
+    "news_text": [
+      "• The 78th Cannes Film Festival featured French actress Juliette Binoche leading the main competition jury, joined by notable figures such as Halle Berry and Payal Kapadia, emphasizing diversity and talent in cinema.",
+      "• Innovative works like 'From Dust' by Michel van der Aa received recognition, showcasing the festival’s commitment to pushing boundaries in storytelling and technology.",
+      "• Cannes dedicated a section to documentaries on the war in Ukraine, showcasing the festival's engagement with timely global issues through the lens of cinema."
+    ],
+    "news_fun_facts": "Cannes screened its opening ceremony in cinemas across France, blending traditional cinema experiences with the festival's high-profile events.",
+    "picture_url": "https://www.festival-cannes.com/assets/medias/78th-festival-cannes-2025.jpg"
+  },
+  "interesting_trivia": {
+    "trivia_text": [
+      "The Cannes Film Festival's jury comprises artists and filmmakers from diverse backgrounds, reflecting the global nature of contemporary cinema.",
+      "Cinéfondation section focuses on student films worldwide, providing a platform for emerging talents and supporting the future of filmmaking.",
+      "Renowned filmmakers like Luc Dardenne continue to showcase socially conscious works at Cannes, contributing to the festival's reputation for meaningful cinema."
+    ],
+    "trivia_fun_fact": "Over 2,700 films were submitted to Cannes' Cinéfondation in 2025, showcasing the fierce competition and high standards for student filmmakers.",
+    "picture_url": "https://www.festival-cannes.com/assets/medias/cinefondation-2025.jpg"
+  },
+  "opinions": {
+    "opinions_text": "Critics lauded the 2025 Cannes selection for its bold choices in films and its engagement with pressing global issues, highlighting the festival's role as a cultural and intellectual forum.",
+    "opinions_fun_fact": "Some cinephiles view the award for immersive works as a sign of Cannes' willingness to embrace new technologies and storytelling formats in the digital age."
+  },
+  "questions": {
+    "questions_text": "How does Cannes Film Festival balance artistic innovation with commercial success in its film selections?",
+    "questions_fun_fact": "Which emerging filmmaker from the 2025 edition of Cannes is likely to make a significant impact on the global cinema landscape?"
+  }
+}

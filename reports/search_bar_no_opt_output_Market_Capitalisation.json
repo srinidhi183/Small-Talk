@@ -1,0 +1,57 @@
+{
+  "further_key_words": "Market Capitalization, Stocks, Cryptocurrencies, Investor Sentiment, Earnings Surprises",
+  "category": {
+    "categorie_name": "Business & Finance"
+  },
+  "subcatetgory": {
+    "subcatetgory_name": "Financial Markets"
+  },
+  "topic": {
+    "name": "Market Capitalization",
+    "topic_tags": {
+      "tag_names": "Market Capitalization, Stocks, Cryptocurrencies, Investor Sentiment, Earnings Surprises"
+    }
+  },
+  "general_facts": {
+    "general_definition": "Market capitalization refers to the total value of a company's outstanding shares of stock, calculated by multiplying the current stock price by the total number of outstanding shares.",
+    "general_points": {
+      "Importance": "Market capitalization is a key metric used by investors to assess the size, performance, and risk of a company. It helps in determining a company's position in the market relative to other companies.",
+      "Stock Classifications": "Stocks are often categorized into large-cap, mid-cap, and small-cap based on their market capitalization. Large-cap stocks typically have a market capitalization of over $10 billion, mid-cap between $2 billion to $10 billion, and small-cap below $2 billion.",
+      "Market Trends": "Market capitalization trends reflect investor sentiment, economic conditions, and company performance. It can be influenced by various factors like earnings reports, industry developments, and macroeconomic indicators."
+    },
+    "general_fun_fact": "The term 'market capitalization' is often shortened to 'market cap' in financial discussions.",
+    "key_facts_text": [
+      "Small-cap stocks are known for their higher growth potential but also come with higher risk due to their volatility.",
+      "Cryptocurrencies have gained popularity as a new asset class, with market capitalization being a key metric to evaluate their value and growth.",
+      "Investor sentiment plays a crucial role in influencing market capitalization trends, sometimes leading to overvaluation or undervaluation of assets."
+    ],
+    "key_facts_fun_fact": "The concept of market capitalization originated in the early 20th century as a way to measure the value of publicly traded companies.",
+    "picture_url": "https://www.investopedia.com/thmb/W-3r8fJ0wX8L4lG3jYk6jAe5_0Y=/2121x1414/filters:fill(auto,1)/GettyImages-1196475489-6d7b6b4b2b054d8e8a5a6788d2c6c8df.jpg"
+  },
+  "news": {
+    "news_text": [
+      "• In September 2025, small-cap stocks outperformed large- and mid-cap stocks, with the Morningstar US Small Cap Index rising 4.58%, driven by undervaluation compared to mega-cap growth stocks dominating earlier gains.",
+      "• AI-related cryptocurrencies, notably Worldcoin, have surged in market capitalization, reaching $33.9 billion in September 2025, due to positive developments like partnerships and significant corporate investments.",
+      "• Equity market commentary highlights a divergence between corporate fundamentals and investor sentiment, with analysts expecting stock prices to rise as earnings surprises lead to positive revisions, and market optimism is increasing after a balanced bullish-bearish sentiment earlier in the year."
+    ],
+    "news_fun_facts": "Small-cap stocks often indicate economic growth potential due to their agility and undervaluation status, while AI tokens reflect a new wave of technological advancement influencing market capitalization trends.",
+    "picture_url": "https://www.morningstar.com/screenshots/news_marketcap_trends_sep2025.png"
+  },
+  "interesting_trivia": {
+    "trivia_text": [
+      "The surge in AI token market cap is partly attributed to Worldcoin's founder, Sam Altman, a billionaire influential in AI innovation.",
+      "Historically, small-cap stocks have provided higher returns than large-cap stocks in growing economies but come with increased risks.",
+      "Investor sentiment often lags actual corporate performance, causing stock prices to adjust slowly even after earnings surprises."
+    ],
+    "trivia_fun_fact": "The connection between AI innovation and cryptocurrency market caps reflects the integration of emerging technologies in finance sectors.",
+    "picture_url": "https://cryptomarketimages.com/worldcoin_ai_token_sep2025.jpg"
+  },
+  "opinions": {
+    "opinions_text": "Some analysts believe the current market undervaluation of small caps presents a buying opportunity, while others caution about economic slowing ahead. Crypto enthusiasts view the AI token rally as a sign of transformative tech economy growth, though some traditional investors remain skeptical of its sustainability.",
+    "opinions_fun_fact": "Investor sentiment swings, often influenced by market narratives like AI’s rise or Fed rate changes, can be as impactful on market capitalization as actual earnings data."
+  },
+  "questions": {
+    "questions_text": "How do different market capitalization categories (small-cap, mid-cap, large-cap) offer varied investment opportunities and risks?",
+    "questions_fun_fact": "What role does investor sentiment play in shaping the market capitalization trends of both stocks and cryptocurrencies?"
+  }
+}

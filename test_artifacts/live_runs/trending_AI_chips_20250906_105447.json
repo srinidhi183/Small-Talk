@@ -1,0 +1,22 @@
+{
+  "topic": "AI Chips",
+  "category": "Economy & Finance",
+  "subcategory": "Industries & Markets",
+  "description": "AI chips are specialized semiconductors developed to accelerate artificial intelligence workloads such as machine learning training and inference. These chips enable high computational power with efficiency critical for AI applications and are driving intense competition among chip manufacturers to address global AI computing demand.",
+  "why_is_it_trending": [
+    "OpenAI is reportedly starting mass production of its custom AI chips in partnership with Broadcom to reduce reliance on Nvidia and scale with increased demand following GPT-5's release.",
+    "Ongoing U.S. export limitations on advanced AI chips, especially to China, have intensified competition, pushed domestic innovation, and caused supply constraints influencing market dynamics.",
+    "Broadcom's AI chip revenue surged significantly, boosting its position versus Nvidia, the current market leader, with notable large-scale orders including from OpenAI, spotlighting the AI semiconductor race."
+  ],
+  "key_points": [
+    "OpenAI designed custom AI chips called 'XPUs' with Broadcom, investing over $10 billion in orders to support doubling their compute fleet to meet growing AI usage demands.",
+    "Nvidia remains dominant with strong revenue ($35.1B in Q3 2025) but faces export restrictions on products like the H20 chip and an increasing challenge from specialized competitors.",
+    "US policies restricting chip exports significantly shape market access for Chinese companies and influence global AI hardware supply chains and innovation strategies."
+  ],
+  "overlook_what_might_happen_next": [
+    "OpenAI will likely rely more heavily on its in-house chips, enhancing performance and reducing costs, potentially setting a trend for vertical integration in AI hardware.",
+    "If Broadcom sustains its momentum and secures further contracts from major AI players, it could substantially increase its market share, challenging Nvidia's dominance.",
+    "Continued geopolitical tensions and evolving export control policies will likely impact global chip supply, drive localized production efforts, and influence innovation focus in AI hardware."
+  ],
+  "picture_url": "http://www.bing.com/th?id=OVFT.7B92co120cMJd2pjLE6chy&pid=News"
+}

@@ -1,0 +1,277 @@
+=== PYTEST RUN START: 2025-09-22T15:50:08 ===
+
+=== TEST CASE: test_get_llm_response_missing_api_key ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0011s
+• Status: PASSED
+
+=== TEST CASE: test_get_llm_response_unexpected_shapes_empty_choices ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): Error during LLM call: list index out of range
+• Markers: []
+• Duration: 0.0010s
+• Status: PASSED
+
+=== TEST CASE: test_get_llm_response_unexpected_shapes_missing_message ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): Error during LLM call: 'NoneType' object has no attribute 'content'
+• Markers: []
+• Duration: 0.0016s
+• Status: PASSED
+
+=== TEST CASE: test_get_llm_response_non_string_content ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): Error during LLM call: 'dict' object has no attribute 'strip'
+• Markers: []
+• Duration: 0.0009s
+• Status: PASSED
+
+=== TEST CASE: test_get_llm_response_unicode_and_strip ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0004s
+• Status: PASSED
+
+=== TEST CASE: test_get_llm_response_temperature_and_params_passed ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: [
+  "xfail"
+]
+• Duration: 0.0005s
+• Status: FAILED
+• Failure details: monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001ED176F2950>
+
+    @pytest.mark.xfail(reason="function doesn't accept temperature/top_p right now")
+    def test_get_llm_response_temperature_and_params_passed(monkeypatch):
+        client = FakeOpenAIClient(api_key="k")
+        monkeypatch.setattr(L, "OpenAI", lambda *a, **k: client, raising=True)
+>       _ = L.get_llm_response("hello", temperature=0.2, max_tokens=256, top_p=0.9)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: get_llm_response() got an unexpected keyword argument 'temperature'
+
+tests\test_llm_tils_edge_cases.py:92: TypeError
+
+=== TEST CASE: test_build_prompt_missing_template_file ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0005s
+• Status: PASSED
+
+=== TEST CASE: test_build_prompt_encoding_issues ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0021s
+• Status: PASSED
+
+=== TEST CASE: test_build_prompt_placeholder_collision_raises ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0015s
+• Status: PASSED
+
+=== TEST CASE: test_build_prompt_subcategories_none_and_strings_ok ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0017s
+• Status: PASSED
+
+=== TEST CASE: test_build_prompt_handles_newlines_and_commas ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0015s
+• Status: PASSED
+
+=== TEST CASE: test_pplx_default_api_key_path_headers ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0004s
+• Status: PASSED
+
+=== TEST CASE: test_pplx_http_error_returns_json_anyway ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0009s
+• Status: PASSED
+
+=== TEST CASE: test_pplx_non_json_response_raises ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0005s
+• Status: PASSED
+
+=== TEST CASE: test_pplx_unexpected_json_shape_passthrough ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0005s
+• Status: PASSED
+
+=== TEST CASE: test_pplx_payload_correctness ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0008s
+• Status: PASSED
+
+=== TEST CASE: test_pplx_headers_when_api_key_param_used ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0008s
+• Status: PASSED
+
+=== TEST CASE: test_verify_and_fix_json_root_array ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0030s
+• Status: PASSED
+
+=== TEST CASE: test_verify_and_fix_json_with_cpp_style_comments ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: [
+  "xfail"
+]
+• Duration: 0.0089s
+• Status: FAILED
+• Failure details: @pytest.mark.xfail(reason="Comments not stripped yet")
+    def test_verify_and_fix_json_with_cpp_style_comments():
+        ok, out = L.verify_and_fix_json('{ /* note */ "a": 1, // end\n "b": 2 }')
+>       assert ok and out == {"a": 1, "b": 2}
+E       assert (False)
+
+tests\test_llm_tils_edge_cases.py:246: AssertionError
+
+=== TEST CASE: test_verify_and_fix_json_single_quotes ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: [
+  "xfail"
+]
+• Duration: 0.0007s
+• Status: FAILED
+• Failure details: @pytest.mark.xfail(reason="Single quotes not normalized yet")
+    def test_verify_and_fix_json_single_quotes():
+        ok, out = L.verify_and_fix_json("{ 'a': 1, 'b': 'two' }")
+>       assert ok and out == {"a": 1, "b": "two"}
+E       assert (False)
+
+tests\test_llm_tils_edge_cases.py:251: AssertionError
+
+=== TEST CASE: test_verify_and_fix_json_python_literals ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: [
+  "xfail"
+]
+• Duration: 0.1464s
+• Status: FAILED
+• Failure details: @pytest.mark.xfail(reason="Python literals True/False/None not normalized yet")
+    def test_verify_and_fix_json_python_literals():
+        ok, out = L.verify_and_fix_json('{ "a": True, "b": None, "c": False }')
+>       assert ok and out == {"a": True, "b": None, "c": False}
+E       AssertionError: assert (True and {'a': 'True', 'b': 'None', 'c': 'False'} == {'a': True, 'b': None, 'c': False}
+E         
+E         Differing items:
+E         [0m{[33m'[39;49;00m[33mb[39;49;00m[33m'[39;49;00m: [33m'[39;49;00m[33mNone[39;49;00m[33m'[39;49;00m}[90m[39;49;00m != [0m{[33m'[39;49;00m[33mb[39;49;00m[33m'[39;49;00m: [94mNone[39;49;00m}[90m[39;49;00m
+E         [0m{[33m'[39;49;00m[33ma[39;49;00m[33m'[39;49;00m: [33m'[39;49;00m[33mTrue[39;49;00m[33m'[39;49;00m}[90m[39;49;00m != [0m{[33m'[39;49;00m[33ma[39;49;00m[33m'[39;49;00m: [94mTrue[39;49;00m}[90m[39;49;00m
+E         [0m{[33m'[39;49;00m[33mc[39;49;00m[33m'[39;49;00m: [33m'[39;49;00m[33mFalse[39;49;00m[33m'[39;49;00m}[90m[39;49;00m != [0m{[33m'[39;49;00m[33mc[39;49;00m[33m'[39;49;00m: [94mFalse[39;49;00m}[90m[39;49;00m
+E         
+E         Full diff:
+E         [0m[90m [39;49;00m {[90m[39;49;00m
+E         [91m-     'a': True,[39;49;00m[90m[39;49;00m
+E         [92m+     'a': 'True',[39;49;00m[90m[39;49;00m
+E         ?          +    +[90m[39;49;00m
+E         [91m-     'b': None,[39;49;00m[90m[39;49;00m
+E         [92m+     'b': 'None',[39;49;00m[90m[39;49;00m
+E         ?          +    +[90m[39;49;00m
+E         [91m-     'c': False,[39;49;00m[90m[39;49;00m
+E         [92m+     'c': 'False',[39;49;00m[90m[39;49;00m
+E         ?          +     +[90m[39;49;00m
+E         [90m [39;49;00m }[90m[39;49;00m)
+
+tests\test_llm_tils_edge_cases.py:256: AssertionError
+
+=== TEST CASE: test_verify_and_fix_json_trailing_comma_in_array ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0006s
+• Status: PASSED
+
+=== TEST CASE: test_verify_and_fix_json_triple_backticks_inside_strings_not_eaten ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0005s
+• Status: PASSED
+
+=== TEST CASE: test_verify_and_fix_json_multiple_concatenated_objects ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: [
+  "xfail"
+]
+• Duration: 0.0006s
+• Status: FAILED
+• Failure details: @pytest.mark.xfail(reason="Concatenated objects not merged/array-wrapped")
+    def test_verify_and_fix_json_multiple_concatenated_objects():
+        ok, out = L.verify_and_fix_json('{"a":1}\n{"b":2}')
+>       assert ok and out == [{"a": 1}, {"b": 2}]
+E       assert (False)
+
+tests\test_llm_tils_edge_cases.py:271: AssertionError
+
+=== TEST CASE: test_verify_and_fix_json_non_string_input_behavior ===
+• What is being tested: No description provided
+• Expected output: See assertions in the test
+• Actual output (captured stdout): (none)
+• Markers: []
+• Duration: 0.0006s
+• Status: PASSED
+
+=== PYTEST RUN END ===
+Collected: 25
+Passed:    20
+Failed:    0
+Skipped:   0
+XFailed:   5
+XPassed:   0
+Exit code: 0

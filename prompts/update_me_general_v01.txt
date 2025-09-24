@@ -1,0 +1,7 @@
+Focus on the subcategory {keywords}.
+
+    Find three recent news about the subcategory and peek one preciseand interesting topic from the analysed subcategory.  
+    Generate an engaging and concise update briefing on topic of your choise in JSON format. 
+    Assume the reader needs a concise briefing that can be used in small talk or for quick updates.
+
+    You must return the response in the JSON format exactly as specified.

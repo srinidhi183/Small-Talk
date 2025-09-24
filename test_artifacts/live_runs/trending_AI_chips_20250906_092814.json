@@ -1,0 +1,22 @@
+{
+  "topic": "AI Chips",
+  "category": "Economy & Finance",
+  "subcategory": "Industries & Markets",
+  "description": "AI chips are specialized semiconductors designed to accelerate artificial intelligence workloads such as machine learning and neural network processing. Major tech companies are investing heavily in custom AI chip development to meet surging demand and reduce reliance on third-party suppliers.",
+  "why_is_it_trending": [
+    "OpenAI is starting mass production of its own AI chips in 2026, partnering with Broadcom, to boost computing power and reduce dependency on NVIDIA GPUs amid high demand for AI services.",
+    "Broadcom's AI semiconductor revenue surged 63% year-over-year in Q3 2025, posing a challenge to NVIDIA's dominant position as AI chip demand grows globally.",
+    "Ongoing US export controls impact AI chip sales to China, prompting Nvidia to adapt its H20 chip for limited exports and fueling competition to develop alternative chip supply chains."
+  ],
+  "key_points": [
+    "OpenAI's custom chips, called 'XPUs', are designed for internal use only to power AI models like GPT-5 and to double its computing capacity over five months, addressing GPU shortages.",
+    "Broadcom focuses on customized AI chips tailored to client needs, gaining momentum against Nvidia, whose broad ecosystem still dominates with massive revenues in AI data center chips.",
+    "The semiconductor industry is volatile in 2025, with Intel restructuring, export restrictions tightening, and major acquisitions like Capgemini buying WNS to enhance AI technology offerings."
+  ],
+  "overlook_what_might_happen_next": [
+    "More AI firms may develop proprietary chips to avoid supply constraints and control costs, accelerating specialization in AI hardware.",
+    "Broadcom could expand AI chip market share significantly if it sustains growth and attracts more large clients like OpenAI, potentially challenging Nvidia's stronghold.",
+    "US-China trade tensions and export restrictions will continue shaping AI chip availability, possibly prompting alternative supply chains and localized manufacturing investments."
+  ],
+  "picture_url": "http://www.bing.com/th?id=OVFT.7B92co120cMJd2pjLE6chy&pid=News"
+}

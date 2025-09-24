@@ -1,0 +1,57 @@
+{
+  "further_key_words": "Cannes, Film Festival, 78th, Juliette Binoche, Halle Berry",
+  "category": {
+    "categorie_name": "Movies & Cinema"
+  },
+  "subcatetgory": {
+    "subcatetgory_name": "Movies & Film Festivals"
+  },
+  "topic": {
+    "name": "Cannes Film Festival",
+    "topic_tags": {
+      "tag_names": "Cannes, Film Festival, Movies, Juliette Binoche, Halle Berry"
+    }
+  },
+  "general_facts": {
+    "general_definition": "The Cannes Film Festival is an annual film festival held in Cannes, France, showcasing a diverse range of international films.",
+    "general_points": {
+      "History and Significance": "Founded in 1946, Cannes is one of the most prestigious film festivals globally, featuring premieres, awards, and influential industry figures. It serves as a platform for celebrating cinematic artistry and innovation.",
+      "Sections and Awards": "The festival includes sections like Official Selection, Un Certain Regard, Midnight Screenings, and Special Screenings, highlighting various genres and talents. Awards like the Palme d'Or and Caméra d’Or recognize excellence and creativity.",
+      "Inclusivity and Innovation": "Cannes embraces diversity with a global jury and showcases new technologies through awards like the Best Immersive Work, supporting emerging filmmakers and pushing boundaries."
+    },
+    "general_fun_fact": "The Palme d'Or trophy is made of 24-carat gold and is one of the most prestigious awards in the film industry.",
+    "key_facts_text": [
+      "The 78th Cannes Film Festival featured 20 films in the Un Certain Regard selection, promoting artistic diversity.",
+      "Special programs included documentaries on topical issues like the Ukraine war, enhancing social awareness through cinema.",
+      "The festival's commitment to immersive media was recognized with awards like Best Immersive Work, pushing the boundaries of storytelling."
+    ],
+    "key_facts_fun_fact": "Cannes is known for its red carpet fashion, where celebrities and filmmakers showcase iconic outfits and styles.",
+    "picture_url": "https://www.festival-cannes.com/en/img/cannes2025.jpg"
+  },
+  "news": {
+    "news_text": [
+      "• The 78th Cannes Film Festival ran from May 13 to 24, 2025, featuring a diverse jury led by Juliette Binoche.",
+      "• Award-winning films included 'From Dust' by Michel van der Aa, demonstrating innovative storytelling techniques.",
+      "• Special screenings and programs highlighted social issues and supported rising talents in the film industry."
+    ],
+    "news_fun_facts": "The festival's commitment to the big screen experience was showcased through live cinema screenings across France.",
+    "picture_url": "https://www.festival-cannes.com/en/img/cannes2025.jpg"
+  },
+  "interesting_trivia": {
+    "trivia_text": [
+      "The 2025 Cannes jury represented global cinema with diverse talents, emphasizing the festival's cultural significance.",
+      "Innovative works in immersive media were recognized, reflecting Cannes' forward-looking approach to storytelling.",
+      "Cinéfondation promotes young filmmakers, offering grants and support to nurture emerging cinema voices worldwide."
+    ],
+    "trivia_fun_fact": "Cinéfondation prizes help student filmmakers kickstart their careers, fostering creativity and originality.",
+    "picture_url": "https://www.festival-cannes.com/en/img/film-reel-cannes.jpg"
+  },
+  "opinions": {
+    "opinions_text": "The 2025 Cannes Film Festival was praised for its diverse jury and focus on new cinematic technologies, signaling a vibrant future for global cinema. The live screenings made the festival more accessible, bridging the gap between industry professionals and the public.",
+    "opinions_fun_fact": "The festival's blend of established and emerging filmmakers creates a dynamic environment for artistic exchange and cultural appreciation."
+  },
+  "questions": {
+    "questions_text": "How has the Cannes Film Festival evolved over the years to embrace new cinematic trends and foster emerging talents?",
+    "questions_fun_fact": "What impact does Cannes have on the international film industry, and how does it influence future filmmaking trends?"
+  }
+}

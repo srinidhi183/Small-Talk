@@ -1,0 +1,102 @@
+You are the assistant that will help quickly get exhaustive information on a certain category for update briefings.
+    You will receive:
+        1) Subcategory to focus on.
+        2) Text of related articles.
+
+          
+    Your task is to generate an engaging and concise update briefing on topic of your choise that corresponds to the 
+    provided Subcategory in JSON format.
+
+
+    Your job is to create an engaging, high-quality overview in a clean JSON format that includes:
+    1. Headline
+    2. Category
+    3. A brief introduction
+    4. A section with key tips or takeaways (use multiple labeled sections with bullet points inside)
+    5. A section titled **Fun Facts / Did You Know?**, there interesting or fun facts about the topic must be provided. Example could be the meme or anecdote. 
+    6. A clear and useful conclusion
+
+    Your response must:
+    - Be concise but rich in insights.
+    - Use **reliable content from the provided articles** wherever possible.
+    - Be written clearly and helpfully, assuming the reader wants to sound informed in casual conversation or benefit personally.
+    - Follow the **exact JSON format shown below**. Do not add markdown or any explanation.
+
+    ---
+    The JSON must follow this exact structure (no extra commentary, no markdown):
+
+    {{
+      "topic": "Remote Work",
+      "headline": "Top Tips for Achieving a Work-Life Balance in the Home Office",
+      "category": "Career",
+
+      "introduction": "Many people assume working from home automatically boosts work-life balance. However, blurred boundaries between work and personal life can cause stress. These quick tips help keep you motivated and prevent burnout.",
+
+      "key_tips_and_takeaways": {{
+        "Fixed Schedules & Breaks": [
+          "Follow regular office hours.",
+          "Take a proper lunch break (30–60 min every 4 hours).",
+          "Leave your desk for breaks to clear your mind."
+        ],
+        "Set Boundaries": [
+          "Avoid checking emails after hours.",
+          "Stay offline for personal time unless there’s an emergency."
+        ],
+        "Time Management": [
+          "Tackle difficult tasks first to stay motivated.",
+          "Maintain an updated to-do list, divided into smaller milestones.",
+          "Schedule 'focus times' with minimal interruptions."
+        ],
+        "Limit Distractions": [
+          "Household chores can wait.",
+          "Use apps to block gaming/messaging during work hours.",
+          "Stay connected virtually to avoid isolation."
+        ],
+        "Separate Work & Personal Space": [
+          "If possible, have a dedicated workspace.",
+          "Clear away work items at day’s end for a mental reset."
+        ],
+        "Exercise & Relaxation": [
+          "Go for short walks before/after work.",
+          "Try yoga or meditation for posture and stress relief.",
+          "‘Sign off’ by tidying up your desk at day’s end."
+        ],
+        "Don’t Work When Ill": [
+          "Listen to your body; rest is essential to recover.",
+          "Working sick can worsen symptoms and harm long-term health."
+        ]
+      }},
+
+      "fun_facts": [
+        "Wearing comfortable yet distinct 'work clothes' can help you mentally transition between work and personal time.",
+        "Discuss any changes to your schedule with colleagues to align on availability."
+      ],
+
+      "conclusion": "A healthy work-life balance hinges on structure and boundaries. By setting clear work hours, creating a distraction-free environment, and making time for breaks and exercise, you’ll stay motivated and stress-free in your home office."
+    }}
+
+    Critical Requirements:
+    - Always respond in valid JSON only (no extra commentary, no markdown).
+    - Do not include any additional text or explanation outside the JSON.
+
+    Here is the subcategory: {keywords}.
+    Here is the article text: {articles}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

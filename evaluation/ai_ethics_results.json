@@ -1,0 +1,474 @@
+{
+  "status": "success",
+  "mode": "comprehensive",
+  "keywords": "AI ethics",
+  "data": {
+    "search": {
+      "status": "success",
+      "mode": "search",
+      "keywords": "AI ethics",
+      "data": [
+        true,
+        {
+          "search1": {
+            "key_words": "Artificial Intelligence Ethics",
+            "category": "Technology & Ethics",
+            "subcatetgory": "AI Governance"
+          },
+          "search2": {
+            "key_words": "AI Ethics in Business",
+            "category": "Business & Technology",
+            "subcatetgory": "Corporate Responsibility"
+          },
+          "search3": {
+            "key_words": "AI Ethics in Healthcare",
+            "category": "Healthcare & Technology",
+            "subcatetgory": "Patient Data Privacy"
+          }
+        }
+      ],
+      "evaluation_p1": {
+        "engagement": {
+          "score": 0.22122852473281157,
+          "reason": "The Actual Output lacks clarity and fluency compared to the Input, which is straightforward. The Input is more engaging due to its simplicity, while the Actual Output is more technical and less emotionally impactful. The creativity and originality are minimal in both, but the Input is slightly more compelling due to its directness. The language in the Actual Output is more structured but less engaging.",
+          "successful": false
+        },
+        "conciseness": {
+          "score": 0.1580917934958845,
+          "reason": "The Actual Output is significantly longer than the Input and introduces new categories and subcategories not present in the Input, which deviates from maintaining clarity and relevance. It also includes unnecessary details that do not contribute to conciseness.",
+          "successful": false
+        },
+        "contextual_relevancy": {
+          "score": 0.6,
+          "reason": "The score is 0.60 because while there are relevant statements addressing AI ethics issues such as 'data responsibility and privacy, fairness, explainability, robustness, transparency,' many other statements focus on business strategies or general technology observations, which are not directly related to AI ethics.",
+          "successful": true
+        },
+        "answer_relevancy": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the output is perfectly relevant to the topic of AI ethics, with no irrelevant statements present. Great job on staying focused and on point!",
+          "successful": true
+        },
+        "faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. Everything aligns perfectly, showcasing a high level of accuracy and consistency. Great job!",
+          "successful": true
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reason": "The score is 0.00 because the actual output perfectly aligns with the context, discussing AI ethics issues and categories without any contradictions, ensuring complete factual consistency.",
+          "successful": true
+        },
+        "toxicity": {
+          "score": 0,
+          "reason": "The score is 0.00 because the actual output is entirely free of any toxic elements. The absence of any negative or harmful language indicates a positive and respectful tone throughout.",
+          "successful": true
+        },
+        "bias": {
+          "score": 1.0,
+          "reason": "The text contains no racial terms, gender stereotypes, or political bias. It focuses on AI ethics across various sectors without any discriminatory language.",
+          "successful": true
+        }
+      },
+      "evaluation_p2": {
+        "json_answer_relevancy": {
+          "score": 0.6666666666666666,
+          "reason": "The answer relevancy score is 0.67 because 6 out of 9 JSON fields are relevant to the keywords 'AI ethics'. Relevant fields include: [1].search1.key_words, [1].search1.category, [1].search2.key_words, and 3 others. Irrelevant fields: [1].search1.subcatetgory, [1].search2.subcatetgory, [1].search3.subcatetgory. ",
+          "successful": false
+        },
+        "json_bias": {
+          "score": 1.0,
+          "reason": "The bias score is 1.00 because 0 out of 0 JSON fields are free from bias. No bias detected in the JSON output. The content appropriately addresses the keywords 'AI ethics' in an inclusive manner.",
+          "successful": true
+        },
+        "json_contextual_relevancy": {
+          "score": 0.0,
+          "reason": "An unexpected error occurred on context statement #1: No module named 'deepeval.llm'",
+          "successful": false
+        },
+        "json_engagement": {
+          "score": 0.0,
+          "reason": "The engagement score is 0.00 because 0 out of 0 JSON fields are engaging for the keywords 'AI ethics'. ",
+          "successful": false
+        },
+        "json_conciseness": {
+          "score": 1.0,
+          "reason": "The conciseness score is 1.00 because 0 out of 0 JSON fields are concise for the keywords 'AI ethics'. ",
+          "successful": true
+        },
+        "json_hallucination": {
+          "score": 1.0,
+          "reason": "The hallucination score is 1.00 because 0 out of 0 claims in the JSON output are supported by the retrieval context. ",
+          "successful": true
+        },
+        "json_toxicity": {
+          "score": 1.0,
+          "reason": "The toxicity score is 1.00 because 0 out of 0 JSON fields are free from toxic content. No toxic content detected in the JSON output. The content appropriately addresses the keywords 'AI ethics' in a respectful and appropriate manner.",
+          "successful": true
+        }
+      }
+    },
+    "trending": {
+      "status": "success",
+      "mode": "trending",
+      "keywords": "AI ethics",
+      "data": {
+        "topic": "AI Ethics",
+        "category": "Technology",
+        "subcategory": "Artificial Intelligence",
+        "description": "AI Ethics is a trending topic focused on the ethical considerations surrounding the development and implementation of artificial intelligence technologies.",
+        "why_is_it_trending": [
+          "Growing concerns about the ethical implications of AI algorithms and decision-making.",
+          "Increased awareness of bias and discrimination in AI systems.",
+          "Call for regulations and guidelines to ensure responsible AI development."
+        ],
+        "key_points": [
+          "Importance of transparency and accountability in AI decision-making processes.",
+          "Need for diverse representation and inclusivity in AI development teams.",
+          "Challenges in ensuring AI systems adhere to ethical standards and principles."
+        ],
+        "overlook_what_might_happen_next": [
+          "Expectation for increased focus on AI ethics in research and industry practices.",
+          "Likelihood of more organizations establishing AI ethics review boards.",
+          "Potential for new regulations and frameworks to govern AI ethics globally."
+        ],
+        "links_and_sources": [
+          "https://www.unesco.org/new/en/unesco/",
+          "https://solutionsreview.com/artificial-intelligence/the-empathetic-enterprise-building-an-ai-ethics-review-board-that-works/",
+          "https://sloanreview.mit.edu/"
+        ]
+      },
+      "evaluation_p1": {
+        "engagement": {
+          "score": 0.7477320695462304,
+          "reason": "The Actual Output is more engaging and compelling due to its detailed exploration of AI ethics, covering various aspects like bias, transparency, and regulations, which adds depth and originality. The Input lacks this depth and creativity. The language in the Actual Output is clear and informative, capturing attention effectively.",
+          "successful": true
+        },
+        "conciseness": {
+          "score": 0.3538531268924766,
+          "reason": "The Actual Output is significantly longer than the Input, failing to maintain brevity. While it expands on the topic of AI ethics, it introduces additional details not present in the Input, which affects clarity and relevance. The language is somewhat efficient but includes unnecessary elaboration, and it does not retain the concise nature of the Input.",
+          "successful": false
+        },
+        "contextual_relevancy": {
+          "score": 0.75,
+          "reason": "The score is 0.75 because while the context includes relevant statements like 'Examples of AI ethics issues include data responsibility and privacy, fairness, explainability, robustness, transparency, environmental sustainability, inclusion, moral agency, value alignment, accountability, trust, and technology misuse,' it also contains promotional and general technology statements that do not directly address AI ethics issues.",
+          "successful": true
+        },
+        "answer_relevancy": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the response perfectly aligns with the topic of AI ethics, addressing all relevant aspects without any irrelevant statements. Great job on maintaining focus and clarity!",
+          "successful": true
+        },
+        "faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output is perfectly aligned with the retrieval context. Great job maintaining accuracy and consistency!",
+          "successful": true
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reason": "The score is 0.00 because the actual output perfectly aligns with the context, with no contradictions present, indicating a complete factual consistency.",
+          "successful": true
+        },
+        "toxicity": {
+          "score": 0.0,
+          "reason": "The score is 0.00 because the actual output is entirely non-toxic, demonstrating a respectful and positive tone throughout. The absence of any negative or harmful language indicates a commendable level of consideration and empathy in the communication.",
+          "successful": true
+        },
+        "bias": {
+          "score": 0.9660347533265499,
+          "reason": "The text focuses on AI ethics without any racial, gender, or political bias. It emphasizes the importance of diversity and inclusivity in AI development, aligning with ethical standards.",
+          "successful": true
+        }
+      },
+      "evaluation_p2": {
+        "json_answer_relevancy": {
+          "score": 0.625,
+          "reason": "The answer relevancy score is 0.62 because 5 out of 8 JSON fields are relevant to the keywords 'AI ethics'. Relevant fields include: topic, category, description, and 2 others. Irrelevant fields: subcategory, why_is_it_trending, key_points. ",
+          "successful": false
+        },
+        "json_bias": {
+          "score": 1.0,
+          "reason": "The bias score is 1.00 because 16 out of 16 JSON fields are free from bias. No bias detected in the JSON output. The content appropriately addresses the keywords 'AI ethics' in an inclusive manner.",
+          "successful": true
+        },
+        "json_contextual_relevancy": {
+          "score": 0.0,
+          "reason": "An unexpected error occurred on context statement #1: No module named 'deepeval.llm'",
+          "successful": false
+        },
+        "json_engagement": {
+          "score": 0.0,
+          "reason": "The engagement score is 0.00 because 0 out of 16 JSON fields are engaging for the keywords 'AI ethics'. Fields needing improvement: topic, category, subcategory. ",
+          "successful": false
+        },
+        "json_conciseness": {
+          "score": 1.0,
+          "reason": "The conciseness score is 1.00 because 16 out of 16 JSON fields are concise for the keywords 'AI ethics'. Well-optimized fields: topic, category, subcategory. ",
+          "successful": true
+        },
+        "json_hallucination": {
+          "score": 0.5333333333333333,
+          "reason": "The hallucination score is 0.53 because 8 out of 15 claims in the JSON output are supported by the retrieval context. Detected 7 potential hallucination(s): Artificial Intelligence, AI Ethics is a trending topic focused on the ethical considerations surrounding the development and implementation of artificial intelligence technologies., Growing concerns about the ethical implications of AI algorithms and decision-making., and 4 others. Well-supported claims include content that aligns with the retrieval context for keywords 'AI ethics'.",
+          "successful": false
+        },
+        "json_toxicity": {
+          "score": 0.91875,
+          "reason": "The toxicity score is 0.92 because 14 out of 16 JSON fields are free from toxic content. Detected toxicity in 2 field(s): why_is_it_trending[1], links_and_sources[1]. Toxicity types found: hate_speech, discriminatory. The content appropriately addresses the keywords 'AI ethics' in a respectful and appropriate manner.",
+          "successful": true
+        }
+      }
+    },
+    "recommendation": {
+      "status": "success",
+      "mode": "recommendation",
+      "keywords": "AI ethics",
+      "data": {
+        "topic": "AI Ethics in Industry",
+        "category": "Technology",
+        "subcategory": "AI Ethics",
+        "description": "A comprehensive look at the current state of AI ethics in the industry, focusing on key issues and emerging trends.",
+        "why_is_it_trending": [
+          "Increased focus on data responsibility and privacy in AI applications.",
+          "Growing concerns about fairness, transparency, and accountability in AI systems.",
+          "Emergence of guidelines and standards to address ethical issues in AI."
+        ],
+        "key_points": [
+          "Unforeseen consequences in AI applications due to biased datasets and poor research design.",
+          "Leading companies taking interest in shaping ethical guidelines to avoid reputational and legal exposure.",
+          "Expectation of more AI protocols as government expertise develops to prevent infringements on human rights."
+        ],
+        "overlook_what_might_happen_next": [
+          "Development of more comprehensive tools and guidelines for AI ethics in the industry.",
+          "Increased focus on transparency, fairness, and accountability in AI systems.",
+          "Continued collaboration between industry leaders, researchers, and policymakers to address ethical challenges."
+        ],
+        "links_and_sources": [
+          "https://www.ibm.com/ai/ethics",
+          "https://en.unesco.org/news/unesco-works-ai-ethics-and-governance",
+          "https://www.technologyreview.com/2025/02/ai-ethics-unintended-consequences/"
+        ]
+      },
+      "evaluation_p1": {
+        "engagement": {
+          "score": 0.7469062593881816,
+          "reason": "The Actual Output is more engaging and compelling due to its detailed exploration of AI ethics, covering key issues and trends, which enhances clarity and emotional impact. It also demonstrates creativity by presenting a comprehensive industry perspective, using clear and engaging language.",
+          "successful": true
+        },
+        "conciseness": {
+          "score": 0.6385594243844439,
+          "reason": "The Actual Output captures the core message of AI ethics and includes critical information such as data responsibility, fairness, and transparency. However, it is longer than necessary and repeats some points, like transparency and accountability, which affects brevity and efficiency.",
+          "successful": false
+        },
+        "contextual_relevancy": {
+          "score": 0.6,
+          "reason": "The score is 0.60 because while there are relevant statements addressing AI ethics issues such as 'data responsibility and privacy, fairness, explainability, robustness, transparency,' many other statements focus on general observations or calls to action, which do not directly address AI ethics.",
+          "successful": true
+        },
+        "answer_relevancy": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the response perfectly aligns with the topic of AI ethics, addressing all relevant aspects without any irrelevant statements. Great job!",
+          "successful": true
+        },
+        "faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because there are no contradictions, indicating a perfect alignment between the actual output and the retrieval context. Great job maintaining accuracy and consistency!",
+          "successful": true
+        },
+        "hallucination": {
+          "score": 0.0,
+          "reason": "The score is 0.00 because the actual output perfectly aligns with the provided contexts, with no contradictions or deviations, indicating no hallucination.",
+          "successful": true
+        },
+        "toxicity": {
+          "score": 0.0,
+          "reason": "The score is 0.00 because the actual output is entirely non-toxic, demonstrating a respectful and positive tone throughout. The absence of any negative or harmful language indicates a commendable level of consideration and empathy in the communication.",
+          "successful": true
+        },
+        "bias": {
+          "score": 0.9914900963114119,
+          "reason": "The text does not contain any racial or gender stereotypes, political bias, or favoritism. It focuses on AI ethics, data responsibility, and collaboration without biased language.",
+          "successful": true
+        }
+      },
+      "evaluation_p2": {
+        "json_answer_relevancy": {
+          "score": 0.75,
+          "reason": "The answer relevancy score is 0.75 because 6 out of 8 JSON fields are relevant to the keywords 'AI ethics'. Relevant fields include: topic, category, subcategory, and 3 others. Irrelevant fields: why_is_it_trending, key_points. ",
+          "successful": false
+        },
+        "json_bias": {
+          "score": 1.0,
+          "reason": "The bias score is 1.00 because 16 out of 16 JSON fields are free from bias. No bias detected in the JSON output. The content appropriately addresses the keywords 'AI ethics' in an inclusive manner.",
+          "successful": true
+        },
+        "json_contextual_relevancy": {
+          "score": 0.0,
+          "reason": "An unexpected error occurred on context statement #1: No module named 'deepeval.llm'",
+          "successful": false
+        },
+        "json_engagement": {
+          "score": 0.0,
+          "reason": "The engagement score is 0.00 because 0 out of 16 JSON fields are engaging for the keywords 'AI ethics'. Fields needing improvement: topic, category, subcategory. ",
+          "successful": false
+        },
+        "json_conciseness": {
+          "score": 1.0,
+          "reason": "The conciseness score is 1.00 because 16 out of 16 JSON fields are concise for the keywords 'AI ethics'. Well-optimized fields: topic, category, subcategory. ",
+          "successful": true
+        },
+        "json_hallucination": {
+          "score": 0.8,
+          "reason": "The hallucination score is 0.80 because 12 out of 15 claims in the JSON output are supported by the retrieval context. Detected 3 potential hallucination(s): A comprehensive look at the current state of AI ethics in the industry, focusing on key issues and emerging trends., Emergence of guidelines and standards to address ethical issues in AI., Expectation of more AI protocols as government expertise develops to prevent infringements on human rights.. Well-supported claims include content that aligns with the retrieval context for keywords 'AI ethics'.",
+          "successful": true
+        },
+        "json_toxicity": {
+          "score": 1.0,
+          "reason": "The toxicity score is 1.00 because 16 out of 16 JSON fields are free from toxic content. No toxic content detected in the JSON output. The content appropriately addresses the keywords 'AI ethics' in a respectful and appropriate manner.",
+          "successful": true
+        }
+      }
+    },
+    "update": {
+      "status": "success",
+      "mode": "update",
+      "keywords": "AI ethics",
+      "data": {
+        "category": "Technology",
+        "subcategory": "Artificial Intelligence",
+        "topic": "AI Ethics",
+        "short_info": [
+          "Recent discussions focus on establishing effective AI ethics review boards.",
+          "Organizations are emphasizing the importance of AI explainability to avoid blindly following recommendations.",
+          "The Philippines collaborates with UNESCO on AI ethics initiatives."
+        ],
+        "reference_url": "https://example.com/ai-ethics-article",
+        "background_story": {
+          "context_history": "As AI technologies advance, concerns about ethical implications have grown, leading to increased efforts to ensure responsible AI development and deployment.",
+          "current_developments": "Initiatives like AI ethics review boards and prioritizing AI explainability are gaining traction to address ethical considerations in AI.",
+          "relevance": "Establishing robust AI ethics frameworks is essential to maintain trust in AI systems and mitigate potential risks of bias or harm."
+        },
+        "picture_url": "https://example.com/ai-ethics-image"
+      },
+      "evaluation_p1": {
+        "engagement": {
+          "score": 0.7018463177838508,
+          "reason": "The Actual Output is more engaging and compelling due to its detailed discussion on AI ethics initiatives and collaborations, which adds depth and originality. However, the Input is more concise, which slightly affects the clarity and fluency comparison.",
+          "successful": true
+        },
+        "conciseness": {
+          "score": 0.3843350469277432,
+          "reason": "The Actual Output introduces new topics like technology and specific initiatives in the Philippines, which are not present in the Input, thus diverging from the core message. It also lacks brevity and efficiency, as it adds unnecessary details not found in the Input.",
+          "successful": false
+        },
+        "contextual_relevancy": {
+          "score": 0.6,
+          "reason": "The score is 0.60 because while there are relevant statements addressing AI ethics issues such as 'data responsibility and privacy, fairness, explainability, robustness, transparency,' many other statements focus on general technological trends or promotional content, which do not directly pertain to AI ethics.",
+          "successful": true
+        },
+        "answer_relevancy": {
+          "score": 0.8333333333333334,
+          "reason": "The score is 0.83 because the response effectively addresses AI ethics, but the inclusion of the broad term 'Technology' slightly detracts from the specificity needed to fully align with the input topic.",
+          "successful": true
+        },
+        "faithfulness": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context. Everything aligns perfectly, showcasing a high level of accuracy and consistency. Great job!",
+          "successful": true
+        },
+        "hallucination": {
+          "score": 1.0,
+          "reason": "The score is 1.00 because the actual output contains significant contradictions with the context, failing to mention specific AI ethics issues and guidelines discussed in the context, and instead focusing on unrelated topics like AI ethics review boards and international collaborations.",
+          "successful": false
+        },
+        "toxicity": {
+          "score": 0.0,
+          "reason": "The score is 0.00 because the actual output is entirely non-toxic, demonstrating a respectful and positive tone throughout. The absence of any negative or harmful language indicates a commendable level of consideration and empathy in the communication.",
+          "successful": true
+        },
+        "bias": {
+          "score": 0.9974042644638882,
+          "reason": "The text is neutral and does not contain any racial terms, gender stereotypes, or political bias. It focuses on AI ethics and international collaboration without any discriminatory language.",
+          "successful": true
+        }
+      },
+      "evaluation_p2": {
+        "json_answer_relevancy": {
+          "score": 0.7777777777777778,
+          "reason": "The answer relevancy score is 0.78 because 7 out of 9 JSON fields are relevant to the keywords 'AI ethics'. Relevant fields include: category, topic, short_info, and 4 others. Irrelevant fields: subcategory, background_story.context_history. ",
+          "successful": false
+        },
+        "json_bias": {
+          "score": 1.0,
+          "reason": "The bias score is 1.00 because 11 out of 11 JSON fields are free from bias. No bias detected in the JSON output. The content appropriately addresses the keywords 'AI ethics' in an inclusive manner.",
+          "successful": true
+        },
+        "json_contextual_relevancy": {
+          "score": 0.0,
+          "reason": "An unexpected error occurred on context statement #1: No module named 'deepeval.llm'",
+          "successful": false
+        },
+        "json_engagement": {
+          "score": 0.0,
+          "reason": "The engagement score is 0.00 because 0 out of 11 JSON fields are engaging for the keywords 'AI ethics'. Fields needing improvement: category, subcategory, topic. ",
+          "successful": false
+        },
+        "json_conciseness": {
+          "score": 1.0,
+          "reason": "The conciseness score is 1.00 because 11 out of 11 JSON fields are concise for the keywords 'AI ethics'. Well-optimized fields: category, subcategory, topic. ",
+          "successful": true
+        },
+        "json_hallucination": {
+          "score": 0.7,
+          "reason": "The hallucination score is 0.70 because 7 out of 10 claims in the JSON output are supported by the retrieval context. Detected 3 potential hallucination(s): Artificial Intelligence, Recent discussions focus on establishing effective AI ethics review boards., Establishing robust AI ethics frameworks is essential to maintain trust in AI systems and mitigate potential risks of bias or harm.. Well-supported claims include content that aligns with the retrieval context for keywords 'AI ethics'.",
+          "successful": true
+        },
+        "json_toxicity": {
+          "score": 0.9090909090909091,
+          "reason": "The toxicity score is 0.91 because 10 out of 11 JSON fields are free from toxic content. Detected toxicity in 1 field(s): background_story.relevance. Toxicity types found: threatening. The content appropriately addresses the keywords 'AI ethics' in a respectful and appropriate manner.",
+          "successful": true
+        }
+      }
+    },
+    "evaluation_p1_summary": {
+      "average_scores": {
+        "engagement": 0.6044282928627686,
+        "conciseness": 0.38370984792513707,
+        "contextual_relevancy": 0.6375,
+        "answer_relevancy": 0.9583333333333334,
+        "faithfulness": 1.0,
+        "hallucination": 0.25,
+        "toxicity": 0.0,
+        "bias": 0.9887322785254625
+      },
+      "success_rates": {
+        "engagement": 0.75,
+        "conciseness": 0.0,
+        "contextual_relevancy": 1.0,
+        "answer_relevancy": 1.0,
+        "faithfulness": 1.0,
+        "hallucination": 0.75,
+        "toxicity": 1.0,
+        "bias": 1.0
+      }
+    },
+    "evaluation_p2_summary": {
+      "average_scores": {
+        "json_answer_relevancy": 0.7048611111111112,
+        "json_bias": 1.0,
+        "json_contextual_relevancy": 0.0,
+        "json_engagement": 0.0,
+        "json_conciseness": 1.0,
+        "json_hallucination": 0.7583333333333333,
+        "json_toxicity": 0.9569602272727272
+      },
+      "success_rates": {
+        "json_answer_relevancy": 0.0,
+        "json_bias": 1.0,
+        "json_contextual_relevancy": 0.0,
+        "json_engagement": 0.0,
+        "json_conciseness": 1.0,
+        "json_hallucination": 0.75,
+        "json_toxicity": 1.0
+      }
+    }
+  }
+}

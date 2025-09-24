@@ -1,0 +1,49 @@
+{
+  "further_key_words": "Formula 1, Racing, Motorsports, Grand Prix, Zandvoort",
+  "category": {
+    "categorie_name": "Sports & Training"
+  },
+  "subcatetgory": {
+    "subcatetgory_name": "Motorsports"
+  },
+  "topic": {
+    "name": "Formula 1 Racing",
+    "topic_tags": {
+      "tag_names": "Motorsports, Grand Prix, Racing"
+    }
+  },
+  "general_facts": {
+    "general_definition": "Formula 1 Racing is the pinnacle of motorsport, featuring high-speed racing cars and the world's best drivers competing on iconic circuits worldwide.",
+    "general_points": {
+      "Overview": "Formula 1 races are held globally, with teams competing in a series of Grand Prix events to determine the World Drivers' and Constructors' Champions.",
+      "Technology and Innovation": "Teams invest heavily in aerodynamics, engines, and advanced technologies to gain a competitive edge, pushing the boundaries of automotive engineering.",
+      "Fan Engagement": "Formula 1 has a massive global fan base, with millions of viewers tuning in to watch races live, showcasing the sport's popularity and impact."
+    },
+    "general_fun_fact": "Ayrton Senna, a legendary F1 driver, is renowned for his exceptional talent and tragic death during the 1994 San Marino Grand Prix.",
+    "key_facts_text": "Oscar Piastri's victory at the 2025 Dutch Grand Prix signifies the rise of new talent in F1. Lewis Hamilton's grid penalty at the Italian Grand Prix adds drama to the championship battle. The unique challenges of Zandvoort's banked corners test drivers' skills and strategy.",
+    "key_facts_fun_fact": "Monza's 'The Temple of Speed' moniker reflects the circuit's legacy of high-speed racing and historic moments.",
+    "picture_url": "https://www.formula1.com/content/dam/fom-website/manual/Misc/2025-DutchGrandPrix.jpg"
+  },
+  "news": {
+    "news_text": [
+      "• Oscar Piastri won the 2025 Dutch Grand Prix at Zandvoort, with Max Verstappen and rookie Isack Hadjar rounding out the podium, marking a significant moment in this Formula 1 season.",
+      "• At the 2025 Italian Grand Prix Qualifying in Monza, Lando Norris led the times in practice sessions, but Charles Leclerc is a strong contender for pole position despite Hamilton's grid penalty.",
+      "• Lewis Hamilton carries a five-place grid penalty at the Italian Grand Prix due to a yellow-flag infringement at Zandvoort, affecting his starting position despite his strong pace."
+    ],
+    "news_fun_facts": "The 2025 Dutch Grand Prix winner, Oscar Piastri, is one of the promising young talents making a big impact this season.",
+    "picture_url": "https://www.formula1.com/content/dam/fom-website/manual/Misc/2025-DutchGrandPrix.jpg"
+  },
+  "interesting_trivia": {
+    "trivia_text": "The Dutch Grand Prix circuit at Zandvoort is known for its banked corners, which create unique racing challenges. Lewis Hamilton’s five-place grid penalty at Monza is unusual as pole winners rarely start from sixth place or lower due to penalties. Isack Hadjar, a rookie this season, managed to secure a podium position in only his third race, which is an uncommon achievement in modern F1.",
+    "trivia_fun_fact": "Monza is famously called 'The Temple of Speed' due to its long straights and high-speed corners.",
+    "picture_url": "https://www.formula1.com/content/dam/fom-website/manual/Misc/MonzaCircuit2025.jpg"
+  },
+  "opinions": {
+    "opinions_text": "Fans believe Oscar Piastri is the new star of F1, especially after his win at Zandvoort, challenging established champions like Verstappen and Hamilton. There is debate whether Lando Norris or Charles Leclerc will be the future Ferrari/Williams star given their close performance at Monza. Some critics argue that penalties such as Hamilton’s grid drop at Monza can unfairly influence race outcomes despite driver skill.",
+    "opinions_fun_fact": "Penalties in F1 often spark heated discussions among fans, sometimes even more than the races themselves."
+  },
+  "questions": {
+    "questions_text": "What do you think about the impact of new talents like Oscar Piastri on the F1 championship? Who do you believe will dominate the Monza Grand Prix despite Hamilton's penalty? Should F1 reconsider their penalty system to ensure fair competition?",
+    "questions_fun_fact": "The unpredictability of F1 races keeps fans engaged, with every event offering thrilling moments and strategic surprises."
+  }
+}

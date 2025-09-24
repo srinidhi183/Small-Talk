@@ -1,0 +1,53 @@
+{
+  "further_key_words": "UEFA, Champions League, Football, Europe, Tournament",
+  "category": {
+    "categorie_name": "Sports"
+  },
+  "subcatetgory": {
+    "subcatetgory_name": "Football"
+  },
+  "topic": {
+    "name": "UEFA Champions League",
+    "topic_tags": {
+      "tag_names": "Football, UEFA, Champions League"
+    }
+  },
+  "general_facts": {
+    "general_definition": "The UEFA Champions League is Europe's premier club football tournament that features the top teams from various European leagues.",
+    "general_points": {
+      "Format Update": "The 2025-26 season introduces a new format with 36 teams playing in a single league table, a departure from the previous group stage system.",
+      "Final Location": "The final of the season will take place on May 30, 2026, at Puskás Aréna in Budapest, Hungary, a first-time venue for the Champions League final.",
+      "English Representation": "This season sees a historic participation with six English clubs, reflecting the strength of English football and UEFA coefficient rankings."
+    },
+    "general_fun_fact": "Paris Saint-Germain secured their first Champions League title in the previous season with a record 5-0 victory in the final.",
+    "key_facts_text": "The Champions League expanded to 36 teams last season, adopting a single league format. Puskás Aréna hosted the 2026 final after hosting Euro 2020 matches. Real Madrid remains a strong contender with a 5.8% chance of winning this season.",
+    "key_facts_fun_fact": "Before PSG's historic 5-0 final win, the largest victory margin was 4-0, making their triumph a significant milestone.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/UEFA_Champions_League_logo_2.svg"
+  },
+  "news": {
+    "news_text": [
+      "• The 2025-26 UEFA Champions League season features a new format with 36 teams in a single league table instead of groups, playing eight matches each against teams from different pots based on their strength.",
+      "• The final will be held on May 30, 2026, at Puskás Aréna in Budapest, Hungary, marking the first time this venue hosts a Champions League final.",
+      "• England has six clubs participating this season, the first time a single nation has had six teams, thanks to UEFA coefficient rankings and Tottenham Hotspur's Europa League win."
+    ],
+    "news_fun_facts": "Paris Saint-Germain are defending champions and secured their first title with a record 5-0 win in the previous final.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/UEFA_Champions_League_logo_2.svg"
+  },
+  "interesting_trivia": {
+    "trivia_text": [
+      "The tournament expanded from 32 to 36 teams starting last season, making it the first Champions League season with a single league format instead of groups.",
+      "Puskás Aréna, hosting the 2026 final, previously hosted UEFA Euro 2020 matches and the 2023 Europa League final.",
+      "Real Madrid, the club with the most Champions League titles, has a 5.8% chance to win again this season according to predictions."
+    ],
+    "trivia_fun_fact": "The biggest victory margin in a final before PSG’s 5-0 win was a 4-0 win, making PSG’s success historic.",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Puskas_arena_budapest.jpg"
+  },
+  "opinions": {
+    "opinions_text": "Many fans and analysts praise the new single league format as more exciting and competitive, while some traditionalists miss the classic group stage setup. Experts also highlight the increased representation of English teams as a testament to the league's strength. Predictions suggest a highly competitive season with PSG and Real Madrid as favorites.",
+    "opinions_fun_fact": "The Champions League format change sparked intense debate, with hashtags like #LeagueFormatLove and #BringBackGroups trending on social media before the season."
+  },
+  "questions": {
+    "questions_text": "What are your thoughts on the new single league format in the UEFA Champions League? Do you believe English clubs will dominate this season? Which team do you think has the best chance of winning the title?",
+    "questions_fun_fact": "The UEFA Champions League format change sparked intense debate among fans, showcasing the passion and diversity of opinions in the football community."
+  }
+}

@@ -1,0 +1,4 @@
+# file: C:\Users\suman\Downloads\SmallTalk-main (5)\SmallTalk-main\llm_utils.py
+# hypothesis_version: 6.138.14
+
+[0.7, '"', '"((?:\\\\.|[^"\\\\])*)"', ',', ', ', ',\\s*([}\\]])', ': "\\1"', ': null', ':\\s*NaN', ':\\s*undefined', 'Authorization', 'Content-Type', 'POST', '[', '[0-9]$', '\\1', '\\1"\\2":', '\\s*```$', ']', '^[a-zA-Z_]', '^```[a-zA-Z]*\\s*', '__ALLOW__', '__KW__', '__NEWS__', '__SUBCATS__', '```', 'application/json', 'content', 'false', 'gpt-3.5-turbo', 'messages', 'model', 'null', 'prompts', 'r', 'role', 'sonar', 'system', 'true', 'user', 'utf-8', '{', '{allow_options}', '{keywords}', '{news}', '{subcategories}', '{{', '}', '}}']
